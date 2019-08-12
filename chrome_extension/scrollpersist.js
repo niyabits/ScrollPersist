@@ -25,6 +25,7 @@ window.addEventListener('scroll', () => {
   localStorage.setItem(key, offsetStr);
 });
 
+
 // When the webpage is re-opened/refreshed trigger these events
 document.addEventListener('DOMContentLoaded', () => {
   // Get the last time offsets from LS
@@ -36,3 +37,4 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set the new scroll values
   window.scrollTo(newOffsetArr[0], newOffsetArr[1]);
 });
+
