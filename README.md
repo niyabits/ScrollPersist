@@ -1,4 +1,8 @@
-# ScrollPersist Framework
+<div align="center">
+<img src="chrome_extension/images/icon_128.png " alt="Scroll Persist Logo">
+</div>
+
+# Scroll Persist Framework
 
 ## Continue reading from where you left.
 
