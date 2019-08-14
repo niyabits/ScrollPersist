@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Scroll Persist",
+  "version": "1.0.0",
+
+  "description": "A Firefox Extension to resume reading your favorite blog from where you left.",
+
+  "icons": {
+    "48": "icons/icon_48.png",
+    "96": "icons/icon_96.png"
+  },
+
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "js": ["scrollpersist.js"]
+    }
+  ]
+}
